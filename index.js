@@ -66,7 +66,7 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-  origin: "https://quick-share-fontend.vercel.app",
+  origin: "https://quick-share-fontend-zk91.vercel.app",
   methods: ["GET", "POST", "DELETE"],
   allowedHeaders: ["Content-Type"]
 }));
